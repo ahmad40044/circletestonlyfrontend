@@ -1,0 +1,67 @@
+/* Body styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Button container styling */
+.buttons {
+  position: absolute;
+  top: 20px;
+}
+
+/* Circle styling */
+.ring {
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+/* Center circle */
+.center {
+  background-color: red;
+  z-index: 9; /* Adjusted z-index value */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* Hovered circle */
+.hovered {
+  background-color: blue;
+}
+
+/* Clicked circle */
+.clicked {
+  background-color: green;
+}
+
+/* Timer styling */
+#timer {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Other styles */
+#resetButton {
+  background-color: lightblue;
+  margin-right: 10px;
+}
+
+#startSession {
+  background-color: lightgreen;
+  margin-right: 10px;
+}
+
+#pauseSession {
+  background-color: lightgrey;
+}
+
+.pause{
+  color: red;
+}
